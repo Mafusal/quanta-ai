@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спасибо за обращение - Quanta AI</title>
+    <link rel="stylesheet" href="css/modern-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="ai-background">
+        <div class="ai-particles"></div>
+    </div>
+    
+    <div class="thanks-page">
+        <div class="container">
+            <div class="thanks-content glass-card">
+                <svg class="success-icon" viewBox="0 0 24 24" width="64" height="64">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="#0a5"/>
+                </svg>
+                <h1>Спасибо за обращение!</h1>
+                <p>Мы получили вашу заявку и свяжемся с вами в ближайшее время.</p>
+                <a href="/" class="btn btn-primary">Вернуться на главную</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .thanks-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 0;
+        }
+
+        .thanks-content {
+            text-align: center;
+            padding: 3rem 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .success-icon {
+            margin-bottom: 1.5rem;
+        }
+
+        .thanks-content h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .thanks-content p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .thanks-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .thanks-content h1 {
+                font-size: 1.75rem;
+            }
+
+            .thanks-content p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</body>
+</html> 
